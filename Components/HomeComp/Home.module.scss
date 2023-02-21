@@ -1,11 +1,18 @@
+.firstCont{
+    background-image: url('/images/bg1.png');
+    // position: relative;
+    // background-position: 0px;
+    height: 100%;
+    width: 100%;
+    padding-top: 230px;
+}
 .HeaderCont{
     position: relative;
     height: fit-content;
     width: 90%;
-    // border: 1px solid red;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 230px;
+    // margin-top: 230px;
     z-index: 1;
     p{
         margin-top: 10px;
@@ -147,4 +154,36 @@
         letter-spacing: 0.16em;
         transform: rotate(90deg);
     }
+}
+
+.sliderCont{
+    margin-top: 190px;
+    margin-bottom: 100px;
+    height: 600px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid red;
+    position: relative;
+    p{
+        position: absolute;
+        top: -110px;
+        left: 0px;
+        font-family: 'Aoboshi One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 128px;
+        line-height: 185px;
+        letter-spacing: 0.16em;
+        text-decoration-line: underline;
+        color: #FFFFFF;
+        z-index: 2;
+    }
+}
+.slide{
+    height: 600px;
+    // width:70%;
+    background-color:  #d9d9d9;
+    color:white;
+
 }
