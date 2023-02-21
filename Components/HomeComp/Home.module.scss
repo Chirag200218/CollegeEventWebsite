@@ -1,0 +1,150 @@
+.HeaderCont{
+    position: relative;
+    height: fit-content;
+    width: 90%;
+    // border: 1px solid red;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 230px;
+    z-index: 1;
+    p{
+        margin-top: 10px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 47px;
+        letter-spacing: 0.205em;
+    }
+    button{
+        margin-left: 45%;
+        margin-top: 50px;
+        padding: 10px;
+        font-weight: 800;
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 0.095em;
+        text-transform: uppercase;
+        background: linear-gradient(270deg, #63B3ED 3.95%, #5A67D8 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        border-width: 4px;
+        border-style: solid;
+        border-image: linear-gradient(to right, #5A67D8, #63B3ED) 1;
+        border-radius:8px;
+    }
+}
+.schedule{
+    position: absolute;
+    right:0px;
+    top:0px;
+    text-align: center;
+    font-size: 48px;
+    line-height: 62px;
+    text-align: center;
+    letter-spacing: 0.14em;
+}
+.ImgCont{
+    position: relative;
+    z-index: 1;
+    height: 300px;
+    width: 75%;
+}
+.ecll{
+    position: absolute;
+    z-index:0;
+    bottom: -1%;
+    left: 8%;
+}
+.ecll2{
+    position: absolute;
+    z-index: 1;
+    top: 32%;
+    right: 8%;
+}
+.ecll3{
+    position: absolute;
+    z-index: 0;
+    top: -6%;
+    right: -5%;
+}
+
+//----------------second section--------------------------------
+
+.CountDown{
+    margin-top: 20px;
+    height: 200px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    // border: 1px solid red;
+    text-align: center;
+    p:nth-child(1){
+        font-family: 'Poppins';
+        font-style: normal;
+        font-size: 64px;
+        line-height: 96px;
+        text-align: center;
+        letter-spacing: 0.125em;
+        color: #FFFFFF;
+
+    }
+}
+
+.dateBox{
+    width: 153.47px;
+    height: 77.39px;
+    background: #080F1A;
+    border-radius: 22px;
+    p:nth-child(1){
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        color: #A5DEFF;
+        margin-top: 12px;
+    }
+    p:nth-child(2){
+        font-weight: 600;
+        font-size: 48px;
+    }
+}
+
+.About{
+    position: relative;
+    height: 470px;
+    width: 1050px;
+    margin: auto;
+    margin-top: 30px;
+    background: rgba(255, 255, 255, 0.26);
+    backdrop-filter: blur(15.5px);
+    border-radius: 34px;
+    padding: 40px;
+    font-family: 'Anton';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.16em;
+    color: #FFFFFF;
+    p{
+        margin-top:4%;
+        margin-left: 11%;
+        width: 75%;
+    }
+    h1{
+        position:absolute;
+        top: 120px;
+        right: -200px;;
+        border-bottom: 5px solid white;
+        color: white;
+        font-family: 'Anton';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 100px;
+        line-height: 120px;
+        letter-spacing: 0.16em;
+        transform: rotate(90deg);
+    }
+}

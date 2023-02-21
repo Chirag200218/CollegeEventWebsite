@@ -1,0 +1,24 @@
+.headerFrame{
+    position: absolute;
+    top: 0px;
+    height:14vh;
+    // border: 1px solid red;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pageNameDiv{
+    margin-right: 2%;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Iceland';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 29px;
+    p{
+        cursor:pointer;
+    }
+}
