@@ -187,3 +187,136 @@
     color:white;
 
 }
+
+//----------------------------Second css---------------------
+.secondCont{
+    height: fit-content;
+    width: 100%;
+    border: 1px solid green;
+    padding-top: 40px;
+    background-image: url('/images/bg2.png');
+}
+.whatYouGet{
+    height: 480px;
+    width: 90%;
+    border: 1px solid red;
+    margin: auto;
+    p{
+        width: 580px;
+        font-family: 'mokoto glitch';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 48px;
+        letter-spacing: 0.125em;
+        border-bottom: 2px solid white;
+        span{
+            font-size: 55px;
+        }
+    }
+    margin-bottom: 100px;
+}
+
+.themeCont{
+    height: 600px;
+    width: 90%;
+    position: relative;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 6%;
+    padding-left: 10%;
+    background: rgba(255, 255, 255, 0.32);
+    backdrop-filter: blur(9px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 17px;
+    margin-bottom: 220px;
+    h6{
+        position: absolute;
+    }
+    p:nth-child(1){
+        position: absolute;
+        top: 100px;
+        left: -180px;
+        font-family: 'Molengo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 96px;
+        line-height: 115px;
+        text-align: center;
+        letter-spacing: 0.15em;
+        text-decoration-line: underline;
+        transform: rotate(-90deg);
+
+    }
+    .firstP{
+        width: 60%;
+        height: fit-content;
+        font-family: 'Anton';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 0.16em;
+        text-transform: capitalize;
+        margin-bottom: 30px;
+    }
+    .secondP{
+        width: 80%;
+        height: fit-content;
+        font-family: 'Anton';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 0.16em;
+        text-transform: capitalize;
+    }
+    div{
+        width: 30%;
+        height: 238px;
+        background: rgba(64, 35, 78, 0.56);
+    }
+}
+
+.Ambasdor{
+    position: relative;
+    width: 90%;
+    height: 550px;
+    margin: auto;
+    display: flex;
+    // background: url(Dana Randall Design - DesignA11y.png);
+    background-color: #A5DEFF;
+    opacity: 0.85;
+    backdrop-filter: blur(11px);
+    /* Note: backdrop-filter has minimal browser support */
+    padding: 2%;
+    border-radius: 12px;
+    margin-bottom: 100px;
+    span:nth-child(1){
+        top: -100px;
+        left: -30px;
+        width: 730px;
+        position:  absolute;
+        font-family: 'Audiowide';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 64px;
+        line-height: 66px;
+        letter-spacing: 0.16em;
+        // span{
+        //     border-bottom: 2px solid white;
+        // }
+    }
+    p{
+        font-family: 'Anton';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 48px;
+        width: 65%;
+        color: #242021;
+    }
+}

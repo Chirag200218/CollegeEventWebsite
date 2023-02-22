@@ -1,0 +1,32 @@
+.footerComp{
+    height: 353px;
+    width: 100%;
+    background: rgba(18, 18, 30, 0.93);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    p{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    div{
+        height: 280px;
+        width: 60%;
+        .social{
+            height: 40px;
+            display: flex;
+            justify-content: space-between;
+            div{
+                height: 100%;
+                width: 40px;
+                border-radius: 50%;
+                border: 1px solid green;
+                cursor: pointer;
+            }
+        }
+    }
+    
+}
